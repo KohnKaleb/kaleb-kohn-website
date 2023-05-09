@@ -1,7 +1,7 @@
-// Step 1: Import React
+
 import * as React from 'react'
 import NavBar from './navbar.js'
-// Step 2: Define your component
+
 const IndexPage = () => {
   return (
     <main>
@@ -12,7 +12,6 @@ const IndexPage = () => {
   )
 }
 
-// You'll learn about this in the next task, just copy it for now
 export const Head = () => <title>Kaleb's Website</title>
 
 // Step 3: Export your component
