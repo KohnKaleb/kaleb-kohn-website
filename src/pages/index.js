@@ -14,5 +14,4 @@ const IndexPage = () => {
 
 export const Head = () => <title>Kaleb's Website</title>
 
-// Step 3: Export your component
 export default IndexPage
