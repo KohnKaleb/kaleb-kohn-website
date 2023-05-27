@@ -1,18 +1,13 @@
 import * as React from "react";
+import { Link } from "gatsby";
 
-class NavBar extends React.Component {
-  render() {
-    return (
-      <div>
-        <a href="https://www.linkedin.com/in/kaleb-kohn-2a1b3622b/">
-          <img src="..\images\linkedin_icon.png" alt="linkedin icon"></img>
-        </a>
-        <a href="https://github.com/KohnKaleb">
-          <img src="../images/github_icon.png" alt="github icon"></img>
-        </a>
-      </div>
-    );
-  }
+export default function NavBar() {
+  return (
+    <>
+      <Link to="/">Home</Link>
+      <Link to="/aboutMe">About</Link>
+      <Link to="/resume">Resume</Link>
+      <Link to="/contact">Contact</Link>
+    </>
+  );
 }
-
-export default NavBar;
