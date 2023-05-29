@@ -3,7 +3,7 @@ import NavBar from "./navbar.js";
 
 const Resume = () => {
     return (
-        <main>
+        <main style={{backgroundColor:"#add8e6"}}>
              <NavBar />
             <h1>Resume</h1>
             <p>

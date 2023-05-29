@@ -6,7 +6,7 @@ import { FaEnvelope } from "react-icons/fa";
 
 const Contact = () => {
   return (
-    <main>
+    <main style={{backgroundColor:"#add8e6"}}>
       <NavBar />
       <h1>Contact</h1>
       <p>

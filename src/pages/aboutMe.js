@@ -3,7 +3,7 @@ import NavBar from "./navbar.js";
 
 const AboutMe = () => {
   return (
-    <main>
+    <main style={{backgroundColor:"#add8e6"}}>
       <NavBar />
       <h1>About Me</h1>
       <p>
