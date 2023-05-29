@@ -1,20 +1,22 @@
 import React from "react";
-import NavBar from "./navbar.js";
+import Layout from "../components/layout";
 import { FaGithub } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
 import { FaEnvelope } from "react-icons/fa";
 
 const Contact = () => {
   return (
-    <main style={{backgroundColor:"#add8e6"}}>
-      <NavBar />
+    <Layout>
       <h1>Contact</h1>
       <p>
         <a target="_blank" href="mailto:kohnkaleb@gmail.com">
           <FaEnvelope size={30} color="black" />
         </a>
 
-        <a target="_blank" href="https://www.linkedin.com/in/kaleb-kohn-2a1b3622b/">
+        <a
+          target="_blank"
+          href="https://www.linkedin.com/in/kaleb-kohn-2a1b3622b/"
+        >
           <FaLinkedin size={30} color="black" />
         </a>
 
@@ -22,7 +24,7 @@ const Contact = () => {
           <FaGithub size={30} color="black" />
         </a>
       </p>
-    </main>
+    </Layout>
   );
 };
 

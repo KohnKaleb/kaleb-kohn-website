@@ -1,7 +1,18 @@
-const theme = {
+export default { 
     colors: {
-        background: '#add8e6',
+        background: "white",
+        text: "green"
     },
-}
+    fonts: {
+        body: 'system-ui, "Open Sans"',
+        heading: 'system-ui, "Open Sans"',
+        monospace: "Menlo, monospace",
+      },
 
-export default theme;
+    p: {
+        color: 'text',
+        fontFamily: 'body',
+        fontWeight: 'body',
+        lineHeight: 'body',
+    }
+}

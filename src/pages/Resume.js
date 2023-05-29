@@ -1,15 +1,13 @@
-import React from 'react';
-import NavBar from "./navbar.js";
+import React from "react";
+import Layout from "../components/layout";
 
 const Resume = () => {
-    return (
-        <main style={{backgroundColor:"#add8e6"}}>
-             <NavBar />
-            <h1>Resume</h1>
-            <p>
-            </p>
-        </main>
-    )
-}
+  return (
+    <Layout>
+      <h1>Resume</h1>
+      <p></p>
+    </Layout>
+  );
+};
 
 export default Resume;
