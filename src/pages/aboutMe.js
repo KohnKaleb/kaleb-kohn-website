@@ -5,12 +5,12 @@ const AboutMe = () => {
   return (
     <main>
       <NavBar />
+      <h1>About Me</h1>
       <p>
-        Computer Science Major UW-Madison Passionate about computer science and
-        mostly interested in backend development but I like to try and learn all
-        aspects of software development I am also a member of the Air Force
-        National Guard and have been in for over 4 years now, and have gone on
-        one deployment to Saudi Arabia
+       I grew up in Beaver Dam Wisconsin and moved to Madison Wisconsin for high school. I am a rising junior at UW Madison for Computer science. I am also a member of the Air National Guard and have been enlisted for over 4 years now and have gone on one deployment to Saudi Arabia.
+      </p>
+      <p>
+        In my free time I like to work on varioius coding projects, running, and playing video games. I also have a cute kitty named boots who helps keep me company when i'm coding.
       </p>
     </main>
   )
