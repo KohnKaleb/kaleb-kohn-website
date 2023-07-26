@@ -5,7 +5,7 @@ const Footer = () => {
   return (
     <>
       <p>
-        <CgCopyright size={15} color="blue" /> author: Kaleb Kohn @
+        <CgCopyright size={20} color="blue" /> author: Kaleb Kohn @
         KalebKohn.com
       </p>
     </>
