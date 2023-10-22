@@ -1,0 +1,16 @@
+.navbar {
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .nav-link {
+    color: #fff;
+    text-decoration: none; 
+    margin: 0 10px; 
+  }
+  
+
+  .nav-link:hover {
+    text-decoration: underline;
+  }

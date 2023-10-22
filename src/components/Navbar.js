@@ -4,13 +4,11 @@ import "../css/navbar.css";
 
 export default function NavBar() {
   return (
-    <>
-      <div className="navbar menu-items">
-        <Link to="/">Home</Link>
-        <Link to="/aboutMe">About</Link>
-        <Link to="/resume">Resume</Link>
-        <Link to="/contact">Contact</Link>
-      </div>
-    </>
+    <nav className="navbar">
+      <Link to="/" className="nav-link">Home</Link>
+      <Link to="/aboutMe" className="nav-link">About</Link>
+      <Link to="/resume" className="nav-link">Resume</Link>
+      <Link to="/contact" className="nav-link">Contact</Link>
+    </nav>
   );
 }

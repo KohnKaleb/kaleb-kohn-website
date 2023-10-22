@@ -5,7 +5,6 @@ const Resume = () => {
   return (
     <Layout>
       <h1>Resume</h1>
-      <p></p>
     </Layout>
   );
 };
