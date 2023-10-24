@@ -1,8 +1,24 @@
-.container {
-  height: 100%;
-  width: 100% !important;
+.outerContainer {
   display: flex;
-  position: fixed;
-  align-items: center;
   justify-content: center;
+  align-items: center;
+  height: 90vh; /* Center in the viewport */
+  overflow: hidden; /* Hide content that overflows */
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-height: 100%; /* Content will not exceed the container's height */
+  overflow: hidden; /* Hide content that overflows */
+}
+
+.my-4 {
+  font-size: 1.5em;
+}
+
+p {
+  font-size: 1.5em;
 }
