@@ -1,0 +1,23 @@
+.image-scroll-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 95vh;
+    overflow: hidden;
+  }
+  
+  .image-wrapper {
+    max-height: 100%;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    display: inline-block;
+  }
+  
+  .image-wrapper img {
+    max-width: 7000%;
+    height: auto;
+  }
+
+  body {
+    overflow: hidden;
+  }
