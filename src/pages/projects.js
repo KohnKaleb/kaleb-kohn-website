@@ -1,23 +1,23 @@
 import * as React from 'react';
-import 'bootstrap/dist/css/bootstrap.min.css';
+import "../css/projects.css";
+import Layout from "../components/layout";
+import runCrafter from "../videos/runCrafter.gif";
+import openingChessPractice from "../videos/openingChessPractice.gif";
 
-const AboutPage = () => {
+const projects = () => {
   return (
-    <div className="container">
-      <h1>About</h1>
-      <div className="row">
-        <div className="col-md-6">
-          <p>
-            Computer Science Major at UW-Madison
-            Passionate about computer science and mostly interested in backend development, but I like to try and learn all aspects of software development.
-            I am also a member of the Air Force National Guard and have been in for over 4 years now, and have gone on one deployment to Saudi Arabia.
-          </p>
+    <>
+      <Layout />
+      <div className="gifs-container">
+        <div className="gif-container">
+          <img src={runCrafter} alt="Run Crafter"/>
+        </div>
+        <div className="gif-container">
+          <img src={openingChessPractice} alt="Opening Chess Practice"/>
         </div>
       </div>
-    </div>
+    </>
   );
-}
+};
 
-export const Head = () => <title>Kaleb's Website</title>
-
-export default AboutPage;
+export default projects;

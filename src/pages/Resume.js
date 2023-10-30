@@ -1,7 +1,8 @@
 import React from "react";
+import "../css/resume.css"
 import Layout from "../components/layout";
 import kaleb_resume from "../static/kaleb_resume.jpg"
-import "../css/resume.css"
+
 
 const Resume = () => {
   return (

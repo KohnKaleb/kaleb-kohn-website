@@ -1,0 +1,12 @@
+.contact-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .contact-icons a {
+    margin: 0 20px;
+    text-decoration: none;
+    color: black;
+  }

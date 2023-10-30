@@ -10,6 +10,7 @@ export default function NavBar() {
           <Link to="/">Home</Link>
           <Link to="/aboutMe">About</Link>
           <Link to="/resume">Resume</Link>
+          <Link to="/projects">Projects</Link>
           <Link to="/contact">Contact</Link>
         </div>
       </div>

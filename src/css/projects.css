@@ -1,0 +1,18 @@
+.gifs-container {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    height: 90vh; /* Ensure the container takes up the full viewport height */
+}
+
+.gif-container {
+    display: inline-block;
+    justify-content: center; /* Horizontal centering */
+    align-items: center; /* Vertical centering */
+    margin: 20px; /* Add margin all around the container */
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
