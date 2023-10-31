@@ -8,16 +8,24 @@ import "../css/contact.css";
 const Contact = () => {
   return (
     <Layout>
-      <div className="contact-icons">
-        <a target="_blank" href="mailto:kohnkaleb@gmail.com">
-          <FaEnvelope size={100} color="black" />
-        </a>
-        <a target="_blank" href="https://www.linkedin.com/in/kaleb-kohn-2a1b3622b/">
-          <FaLinkedin size={100} color="black" />
-        </a>
-        <a target="_blank" href="https://github.com/KohnKaleb">
-          <FaGithub size={100} color="black" />
-        </a>
+      <div className="contact-container">
+        <div className="text-container">
+          <p>You can reach out using any of the following links below!</p>
+        </div>
+        <div className="contact-icons">
+          <a target="_blank" href="mailto:kohnkaleb@gmail.com">
+            <FaEnvelope size={100} color="black" />
+          </a>
+          <a
+            target="_blank"
+            href="https://www.linkedin.com/in/kaleb-kohn-2a1b3622b/"
+          >
+            <FaLinkedin size={100} color="black" />
+          </a>
+          <a target="_blank" href="https://github.com/KohnKaleb">
+            <FaGithub size={100} color="black" />
+          </a>
+        </div>
       </div>
     </Layout>
   );

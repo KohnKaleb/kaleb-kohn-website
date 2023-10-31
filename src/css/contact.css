@@ -10,3 +10,11 @@
     text-decoration: none;
     color: black;
   }
+
+  .text-container {
+      position: relative;
+      text-align: center;
+      top: 350px;
+      overflow: hidden;
+  }
+  
